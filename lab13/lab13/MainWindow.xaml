@@ -1,0 +1,88 @@
+﻿<Window x:Class="lab13.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:lab13"
+        mc:Ignorable="d"
+        Title="Музыкальные инструменты" Height="450" Width="800" Loaded="Window_Loaded">
+    <Window.Resources>
+        <local:dotNetDataSet x:Key="dotNetDataSet"/>
+        <CollectionViewSource x:Key="musical_InstrumentViewSource" Source="{Binding Musical_Instrument, Source={StaticResource dotNetDataSet}}"/>
+        <CollectionViewSource x:Key="musical_Instrument_TypeViewSource" Source="{Binding Musical_Instrument_Type, Source={StaticResource dotNetDataSet}}"/>
+    </Window.Resources>
+    <Grid>
+        <TabControl Margin="0" RenderTransformOrigin="0.496,0.52">
+            <TabItem Header="Инструменты">
+                <Grid Background="#FFE5E5E5" DataContext="{StaticResource musical_InstrumentViewSource}">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="553*"/>
+                        <ColumnDefinition Width="235*"/>
+                        <ColumnDefinition Width="0*"/>
+                    </Grid.ColumnDefinitions>
+                    <DataGrid x:Name="musical_InstrumentDataGrid" AutoGenerateColumns="False" EnableRowVirtualization="True" ItemsSource="{Binding}" Margin="0,40,9.8,0" RowDetailsVisibilityMode="VisibleWhenSelected">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn x:Name="idColumn" Binding="{Binding id}" Header="id" IsReadOnly="True" Width="SizeToHeader"/>
+                            <DataGridTextColumn x:Name="namesColumn" Binding="{Binding names}" Header="names" Width="SizeToHeader"/>
+                            <DataGridComboBoxColumn x:Name="typeTitleColumn" ItemsSource="{Binding Source={StaticResource musical_Instrument_TypeViewSource}}" Width="150" DisplayMemberPath="title" SelectedValuePath="typeId" SelectedValueBinding="{Binding typeId}"/>
+                            <DataGridTextColumn x:Name="brandColumn" Binding="{Binding brand}" Header="brand" Width="SizeToHeader"/>
+                            <DataGridTemplateColumn x:Name="photoColumn" Header="photo" Width="SizeToHeader">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <Image Source="{Binding photo}"/>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                    <Button x:Name="SaveSaveMusicalInstrument" Content="Сохранить" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="75" Click="SaveMusicalInstrument_Click"/>
+                    <Button x:Name="DeleteSaveMusicalInstrument" Content="Удалить" HorizontalAlignment="Left" Margin="90,10,0,0" VerticalAlignment="Top" Width="75" Click="DeleteMusicalInstrument_Click" />
+                    <Border BorderBrush="Black" BorderThickness="1" Margin="10.2,10,10,10" RenderTransformOrigin="0.5,0.5" Grid.Column="1">
+                        <Border.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform AngleX="0"/>
+                                <RotateTransform Angle="0"/>
+                                <TranslateTransform X="0" Y="0"/>
+                            </TransformGroup>
+                        </Border.RenderTransform>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="11*"/>
+                                <RowDefinition Height="63*"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+                            <Image Source="{Binding photo}" Margin="10,9.8,9.6,10.4" Grid.Row="1"/>
+                            <Label Content="photo:" HorizontalAlignment="Left" Margin="10,17,0,10.2" VerticalAlignment="Center" Width="46" Height="28" FontSize="11">
+                                <Label.ContextMenu>
+                                    <ContextMenu>
+                                        <Button Content="Загрузить" x:Name="load_button" Click="load_button_Click"></Button>
+                                    </ContextMenu>
+                                </Label.ContextMenu>
+                            </Label>
+                        </Grid>
+                    </Border>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Типы инструментов">
+                <Grid Background="#FFE5E5E5" Margin="0,0,0.4,-0.2" DataContext="{StaticResource musical_Instrument_TypeViewSource}">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <DataGrid x:Name="musical_Instrument_TypeDataGrid" AutoGenerateColumns="False" EnableRowVirtualization="True" ItemsSource="{Binding}" Margin="0,38,0,0.2" RowDetailsVisibilityMode="VisibleWhenSelected">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn x:Name="typeIdColumn1" Binding="{Binding typeId}" Header="type Id" IsReadOnly="True" Width="SizeToHeader"/>
+                            <DataGridTextColumn x:Name="titleColumn" Binding="{Binding title}" Header="title" Width="SizeToHeader"/>
+                            <DataGridTextColumn x:Name="descriptionColumn" Binding="{Binding description}" Header="description" Width="SizeToHeader"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                    <Button x:Name="SaveMusicalInstrumentType" Grid.ColumnSpan="2" Content="Сохранить" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="75" Click="SaveMusicalInstrumentType_Click"/>
+                    <Button x:Name="DeleteMusicalInstrumentType" Grid.ColumnSpan="2" Content="Удалить" HorizontalAlignment="Left" Margin="90,10,0,0" VerticalAlignment="Top" Width="75" Click="DeleteMusicalInstrumentType_Click"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
+
+    </Grid>
+</Window>

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище dotNetModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Musical_Instrument">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="names" Type="nvarchar" MaxLength="256" />
+    <Property Name="typeId" Type="int" />
+    <Property Name="brand" Type="nvarchar" MaxLength="256" />
+    <Property Name="photo" Type="image" />
+  </EntityType>
+  <EntityType Name="Musical_Instrument_Type">
+    <Key>
+      <PropertyRef Name="typeId" />
+    </Key>
+    <Property Name="typeId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="title" Type="nvarchar" MaxLength="256" />
+    <Property Name="description" Type="nvarchar" MaxLength="1024" />
+  </EntityType>
+  <Association Name="FK_MI_MIT">
+    <End Role="Musical_Instrument_Type" Type="Self.Musical_Instrument_Type" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Musical_Instrument" Type="Self.Musical_Instrument" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Musical_Instrument_Type">
+        <PropertyRef Name="typeId" />
+      </Principal>
+      <Dependent Role="Musical_Instrument">
+        <PropertyRef Name="typeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Хранилище dotNetModelContainer">
+    <EntitySet Name="Musical_Instrument" EntityType="Self.Musical_Instrument" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Musical_Instrument_Type" EntityType="Self.Musical_Instrument_Type" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_MI_MIT" Association="Self.FK_MI_MIT">
+      <End Role="Musical_Instrument_Type" EntitySet="Musical_Instrument_Type" />
+      <End Role="Musical_Instrument" EntitySet="Musical_Instrument" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

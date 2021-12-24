@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="dotNetModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Musical_Instrument">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="names" Type="String" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Name="typeId" Type="Int32" />
+    <Property Name="brand" Type="String" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Name="photo" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <NavigationProperty Name="Musical_Instrument_Type" Relationship="Self.FK_MI_MIT" FromRole="Musical_Instrument" ToRole="Musical_Instrument_Type" />
+  </EntityType>
+  <EntityType Name="Musical_Instrument_Type">
+    <Key>
+      <PropertyRef Name="typeId" />
+    </Key>
+    <Property Name="typeId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="title" Type="String" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Name="description" Type="String" MaxLength="1024" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Musical_Instrument" Relationship="Self.FK_MI_MIT" FromRole="Musical_Instrument_Type" ToRole="Musical_Instrument" />
+  </EntityType>
+  <Association Name="FK_MI_MIT">
+    <End Role="Musical_Instrument_Type" Type="Self.Musical_Instrument_Type" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Musical_Instrument" Type="Self.Musical_Instrument" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Musical_Instrument_Type">
+        <PropertyRef Name="typeId" />
+      </Principal>
+      <Dependent Role="Musical_Instrument">
+        <PropertyRef Name="typeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="dotNetEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Musical_Instrument" EntityType="Self.Musical_Instrument" />
+    <EntitySet Name="Musical_Instrument_Type" EntityType="Self.Musical_Instrument_Type" />
+    <AssociationSet Name="FK_MI_MIT" Association="Self.FK_MI_MIT">
+      <End Role="Musical_Instrument_Type" EntitySet="Musical_Instrument_Type" />
+      <End Role="Musical_Instrument" EntitySet="Musical_Instrument" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

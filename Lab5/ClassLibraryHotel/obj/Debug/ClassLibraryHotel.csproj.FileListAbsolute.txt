@@ -1,0 +1,12 @@
+F:\MyDocs\Рабочая\БГТУ\_Преподавание\Дневное\.NET\Бакалавры\Labs\04\Example\Lab04\ClassLibraryHotel\bin\Debug\ClassLibraryHotel.dll
+F:\MyDocs\Рабочая\БГТУ\_Преподавание\Дневное\.NET\Бакалавры\Labs\04\Example\Lab04\ClassLibraryHotel\bin\Debug\ClassLibraryHotel.pdb
+F:\MyDocs\Рабочая\БГТУ\_Преподавание\Дневное\.NET\Бакалавры\Labs\04\Example\Lab04\ClassLibraryHotel\obj\Debug\ClassLibraryHotel.csprojResolveAssemblyReference.cache
+F:\MyDocs\Рабочая\БГТУ\_Преподавание\Дневное\.NET\Бакалавры\Labs\04\Example\Lab04\ClassLibraryHotel\obj\Debug\ClassLibraryHotel.csproj.CoreCompileInputs.cache
+F:\MyDocs\Рабочая\БГТУ\_Преподавание\Дневное\.NET\Бакалавры\Labs\04\Example\Lab04\ClassLibraryHotel\obj\Debug\ClassLibraryHotel.dll
+F:\MyDocs\Рабочая\БГТУ\_Преподавание\Дневное\.NET\Бакалавры\Labs\04\Example\Lab04\ClassLibraryHotel\obj\Debug\ClassLibraryHotel.pdb
+C:\Users\Lenovo\Desktop\Lab04\ClassLibraryHotel\bin\Debug\ClassLibraryHotel.dll
+C:\Users\Lenovo\Desktop\Lab04\ClassLibraryHotel\bin\Debug\ClassLibraryHotel.pdb
+C:\Users\Lenovo\Desktop\Lab04\ClassLibraryHotel\obj\Debug\ClassLibraryHotel.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\Lab04\ClassLibraryHotel\obj\Debug\ClassLibraryHotel.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\Lab04\ClassLibraryHotel\obj\Debug\ClassLibraryHotel.dll
+C:\Users\Lenovo\Desktop\Lab04\ClassLibraryHotel\obj\Debug\ClassLibraryHotel.pdb

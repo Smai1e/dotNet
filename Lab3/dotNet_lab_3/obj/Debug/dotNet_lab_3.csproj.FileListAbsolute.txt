@@ -1,0 +1,10 @@
+C:\Users\Lenovo\source\repos\dotNet_lab_3\dotNet_lab_3\bin\Debug\dotNet_lab_3.exe.config
+C:\Users\Lenovo\source\repos\dotNet_lab_3\dotNet_lab_3\bin\Debug\dotNet_lab_3.exe
+C:\Users\Lenovo\source\repos\dotNet_lab_3\dotNet_lab_3\bin\Debug\dotNet_lab_3.pdb
+C:\Users\Lenovo\source\repos\dotNet_lab_3\dotNet_lab_3\obj\Debug\dotNet_lab_3.Form1.resources
+C:\Users\Lenovo\source\repos\dotNet_lab_3\dotNet_lab_3\obj\Debug\dotNet_lab_3.Properties.Resources.resources
+C:\Users\Lenovo\source\repos\dotNet_lab_3\dotNet_lab_3\obj\Debug\dotNet_lab_3.csproj.GenerateResource.cache
+C:\Users\Lenovo\source\repos\dotNet_lab_3\dotNet_lab_3\obj\Debug\dotNet_lab_3.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\dotNet_lab_3\dotNet_lab_3\obj\Debug\dotNet_lab_3.exe
+C:\Users\Lenovo\source\repos\dotNet_lab_3\dotNet_lab_3\obj\Debug\dotNet_lab_3.pdb
+C:\Users\Lenovo\source\repos\dotNet_lab_3\dotNet_lab_3\obj\Debug\dotNet_lab_3.csproj.AssemblyReference.cache

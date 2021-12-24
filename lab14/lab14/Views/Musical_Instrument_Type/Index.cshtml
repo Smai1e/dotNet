@@ -1,0 +1,43 @@
+﻿@model IEnumerable<lab14.Models.Musical_Instrument_Type>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+
+<p>
+    @Html.ActionLink("Создать", "Create")<br>
+    @Html.ActionLink("Перейти к инструментам", "../Musical_instrument/Index")
+</p>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.title)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.description)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.description)
+            </td>
+            <td>
+                @Html.ActionLink("Изменить", "Edit", new { id = item.typeId }) |
+                @Html.ActionLink("Детали", "Details", new { id = item.typeId }) |
+                @Html.ActionLink("Удалить", "Delete", new { id = item.typeId })
+            </td>
+        </tr>
+    }
+
+</table>

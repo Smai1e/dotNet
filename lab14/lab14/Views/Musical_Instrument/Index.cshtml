@@ -1,0 +1,66 @@
+﻿@model IEnumerable<lab14.Models.Musical_Instrument>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Создать", "Create")<br>
+    @Html.ActionLink("Перейти к типам", "../Musical_instrument_Type/Index")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.names)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.brand)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.photo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Musical_Instrument_Type.title)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.names)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.brand)
+        </td>
+        <td>
+            @{
+                byte[] data = item.photo;
+                string imgSrc = string.Empty;
+
+                if (data != null)
+                {
+                    var base64 = Convert.ToBase64String(data);
+                    imgSrc = String.Format("data:image/jpg;base64,{0}", base64);
+                }
+                else
+                {
+                    imgSrc = "data:image/jpg;base64 000";
+                }
+            }
+            <img src="@imgSrc" alt="Empty" width="100px" />
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Musical_Instrument_Type.title)
+        </td>
+        <td>
+            @Html.ActionLink("Изменить", "Edit", new { id=item.id }) |
+            @Html.ActionLink("Детали", "Details", new { id=item.id }) |
+            @Html.ActionLink("Удалить", "Delete", new { id=item.id })
+        </td>
+    </tr>
+}
+
+</table>

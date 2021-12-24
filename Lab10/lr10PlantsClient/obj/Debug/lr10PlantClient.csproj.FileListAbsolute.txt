@@ -1,0 +1,17 @@
+C:\Users\Lenovo\source\repos\lr10\lr10PlantsClient\bin\Debug\lr10PlantsClient.exe.config
+C:\Users\Lenovo\source\repos\lr10\lr10PlantsClient\bin\Debug\lr10PlantsClient.exe
+C:\Users\Lenovo\source\repos\lr10\lr10PlantsClient\bin\Debug\lr10PlantsClient.pdb
+C:\Users\Lenovo\source\repos\lr10\lr10PlantsClient\bin\Debug\lr10Plants.dll
+C:\Users\Lenovo\source\repos\lr10\lr10PlantsClient\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Lenovo\source\repos\lr10\lr10PlantsClient\bin\Debug\lr10Plants.pdb
+C:\Users\Lenovo\source\repos\lr10\lr10PlantsClient\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Lenovo\source\repos\lr10\lr10PlantsClient\obj\Debug\lr10PlantClient.csproj.AssemblyReference.cache
+C:\Users\Lenovo\source\repos\lr10\lr10PlantsClient\obj\Debug\lr10PlantsClient.FormGetDeletePlant.resources
+C:\Users\Lenovo\source\repos\lr10\lr10PlantsClient\obj\Debug\lr10PlantsClient.FormMain.resources
+C:\Users\Lenovo\source\repos\lr10\lr10PlantsClient\obj\Debug\lr10PlantsClient.FormManipPlant.resources
+C:\Users\Lenovo\source\repos\lr10\lr10PlantsClient\obj\Debug\lr10PlantsClient.Properties.Resources.resources
+C:\Users\Lenovo\source\repos\lr10\lr10PlantsClient\obj\Debug\lr10PlantClient.csproj.GenerateResource.cache
+C:\Users\Lenovo\source\repos\lr10\lr10PlantsClient\obj\Debug\lr10PlantClient.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\lr10\lr10PlantsClient\obj\Debug\lr10PlantClient.csproj.CopyComplete
+C:\Users\Lenovo\source\repos\lr10\lr10PlantsClient\obj\Debug\lr10PlantsClient.exe
+C:\Users\Lenovo\source\repos\lr10\lr10PlantsClient\obj\Debug\lr10PlantsClient.pdb

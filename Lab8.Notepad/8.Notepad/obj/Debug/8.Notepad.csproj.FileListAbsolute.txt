@@ -1,0 +1,30 @@
+C:\MINE\dotnet_labs\8.Notepad\8.Notepad\bin\Debug\8.Notepad.exe.config
+C:\MINE\dotnet_labs\8.Notepad\8.Notepad\bin\Debug\8.Notepad.exe
+C:\MINE\dotnet_labs\8.Notepad\8.Notepad\bin\Debug\8.Notepad.pdb
+C:\MINE\dotnet_labs\8.Notepad\8.Notepad\obj\Debug\8.Notepad.csproj.AssemblyReference.cache
+C:\MINE\dotnet_labs\8.Notepad\8.Notepad\obj\Debug\_8.Notepad.FormNotepad.resources
+C:\MINE\dotnet_labs\8.Notepad\8.Notepad\obj\Debug\_8.Notepad.Properties.Resources.resources
+C:\MINE\dotnet_labs\8.Notepad\8.Notepad\obj\Debug\8.Notepad.csproj.GenerateResource.cache
+C:\MINE\dotnet_labs\8.Notepad\8.Notepad\obj\Debug\8.Notepad.csproj.CoreCompileInputs.cache
+C:\MINE\dotnet_labs\8.Notepad\8.Notepad\obj\Debug\8.Notepad.exe
+C:\MINE\dotnet_labs\8.Notepad\8.Notepad\obj\Debug\8.Notepad.pdb
+C:\Users\Lenovo\Downloads\dotnet_labs-main (1)\dotnet_labs-main\8.Notepad\8.Notepad\bin\Debug\8.Notepad.exe.config
+C:\Users\Lenovo\Downloads\dotnet_labs-main (1)\dotnet_labs-main\8.Notepad\8.Notepad\bin\Debug\8.Notepad.exe
+C:\Users\Lenovo\Downloads\dotnet_labs-main (1)\dotnet_labs-main\8.Notepad\8.Notepad\bin\Debug\8.Notepad.pdb
+C:\Users\Lenovo\Downloads\dotnet_labs-main (1)\dotnet_labs-main\8.Notepad\8.Notepad\obj\Debug\8.Notepad.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Downloads\dotnet_labs-main (1)\dotnet_labs-main\8.Notepad\8.Notepad\obj\Debug\_8.Notepad.FormNotepad.resources
+C:\Users\Lenovo\Downloads\dotnet_labs-main (1)\dotnet_labs-main\8.Notepad\8.Notepad\obj\Debug\_8.Notepad.Properties.Resources.resources
+C:\Users\Lenovo\Downloads\dotnet_labs-main (1)\dotnet_labs-main\8.Notepad\8.Notepad\obj\Debug\8.Notepad.csproj.GenerateResource.cache
+C:\Users\Lenovo\Downloads\dotnet_labs-main (1)\dotnet_labs-main\8.Notepad\8.Notepad\obj\Debug\8.Notepad.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Downloads\dotnet_labs-main (1)\dotnet_labs-main\8.Notepad\8.Notepad\obj\Debug\8.Notepad.exe
+C:\Users\Lenovo\Downloads\dotnet_labs-main (1)\dotnet_labs-main\8.Notepad\8.Notepad\obj\Debug\8.Notepad.pdb
+C:\Users\Lenovo\Desktop\8.Notepad\8.Notepad\bin\Debug\8.Notepad.exe.config
+C:\Users\Lenovo\Desktop\8.Notepad\8.Notepad\bin\Debug\8.Notepad.exe
+C:\Users\Lenovo\Desktop\8.Notepad\8.Notepad\bin\Debug\8.Notepad.pdb
+C:\Users\Lenovo\Desktop\8.Notepad\8.Notepad\obj\Debug\8.Notepad.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\8.Notepad\8.Notepad\obj\Debug\_8.Notepad.FormNotepad.resources
+C:\Users\Lenovo\Desktop\8.Notepad\8.Notepad\obj\Debug\_8.Notepad.Properties.Resources.resources
+C:\Users\Lenovo\Desktop\8.Notepad\8.Notepad\obj\Debug\8.Notepad.csproj.GenerateResource.cache
+C:\Users\Lenovo\Desktop\8.Notepad\8.Notepad\obj\Debug\8.Notepad.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\8.Notepad\8.Notepad\obj\Debug\8.Notepad.exe
+C:\Users\Lenovo\Desktop\8.Notepad\8.Notepad\obj\Debug\8.Notepad.pdb

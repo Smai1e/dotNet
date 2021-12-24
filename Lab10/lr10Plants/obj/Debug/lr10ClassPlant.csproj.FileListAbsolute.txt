@@ -1,0 +1,6 @@
+C:\Users\Lenovo\source\repos\lr10\lr10Plants\bin\Debug\lr10Plants.dll
+C:\Users\Lenovo\source\repos\lr10\lr10Plants\bin\Debug\lr10Plants.pdb
+C:\Users\Lenovo\source\repos\lr10\lr10Plants\obj\Debug\lr10ClassPlant.csproj.AssemblyReference.cache
+C:\Users\Lenovo\source\repos\lr10\lr10Plants\obj\Debug\lr10ClassPlant.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\lr10\lr10Plants\obj\Debug\lr10Plants.dll
+C:\Users\Lenovo\source\repos\lr10\lr10Plants\obj\Debug\lr10Plants.pdb

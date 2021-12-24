@@ -1,0 +1,11 @@
+C:\Users\Lenovo\source\repos\dotNet_lab_2.3\dotNet_lab_2.3\bin\Debug\dotNet_lab_2.3.exe.config
+C:\Users\Lenovo\source\repos\dotNet_lab_2.3\dotNet_lab_2.3\bin\Debug\dotNet_lab_2.3.exe
+C:\Users\Lenovo\source\repos\dotNet_lab_2.3\dotNet_lab_2.3\bin\Debug\dotNet_lab_2.3.pdb
+C:\Users\Lenovo\source\repos\dotNet_lab_2.3\dotNet_lab_2.3\obj\Debug\dotNet_lab_2._3.Form1.resources
+C:\Users\Lenovo\source\repos\dotNet_lab_2.3\dotNet_lab_2.3\obj\Debug\dotNet_lab_2._3.Form2.resources
+C:\Users\Lenovo\source\repos\dotNet_lab_2.3\dotNet_lab_2.3\obj\Debug\dotNet_lab_2._3.Properties.Resources.resources
+C:\Users\Lenovo\source\repos\dotNet_lab_2.3\dotNet_lab_2.3\obj\Debug\dotNet_lab_2.3.csproj.GenerateResource.cache
+C:\Users\Lenovo\source\repos\dotNet_lab_2.3\dotNet_lab_2.3\obj\Debug\dotNet_lab_2.3.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\dotNet_lab_2.3\dotNet_lab_2.3\obj\Debug\dotNet_lab_2.3.exe
+C:\Users\Lenovo\source\repos\dotNet_lab_2.3\dotNet_lab_2.3\obj\Debug\dotNet_lab_2.3.pdb
+C:\Users\Lenovo\source\repos\dotNet_lab_2.3\dotNet_lab_2.3\obj\Debug\dotNet_lab_2.3.csproj.AssemblyReference.cache

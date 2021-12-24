@@ -1,0 +1,12 @@
+C:\Users\Lenovo\Desktop\Lab04\ClassLibraryHotel\bin\Debug\ClassLibraryHotel.dll
+C:\Users\Lenovo\Desktop\Lab04\ClassLibraryHotel\bin\Debug\ClassLibraryHotel.pdb
+C:\Users\Lenovo\Desktop\Lab04\ClassLibraryHotel\obj\Debug\ClassLibrary.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\Lab04\ClassLibraryHotel\obj\Debug\ClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\Lab04\ClassLibraryHotel\obj\Debug\ClassLibraryHotel.dll
+C:\Users\Lenovo\Desktop\Lab04\ClassLibraryHotel\obj\Debug\ClassLibraryHotel.pdb
+C:\Users\Lenovo\Desktop\Lab6\ClassLibraryHotel\bin\Debug\ClassLibraryHotel.dll
+C:\Users\Lenovo\Desktop\Lab6\ClassLibraryHotel\bin\Debug\ClassLibraryHotel.pdb
+C:\Users\Lenovo\Desktop\Lab6\ClassLibraryHotel\obj\Debug\ClassLibrary.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\Lab6\ClassLibraryHotel\obj\Debug\ClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\Lab6\ClassLibraryHotel\obj\Debug\ClassLibraryHotel.dll
+C:\Users\Lenovo\Desktop\Lab6\ClassLibraryHotel\obj\Debug\ClassLibraryHotel.pdb

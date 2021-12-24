@@ -1,0 +1,10 @@
+C:\Users\Lenovo\source\repos\dotNet_lab_2.2\dotNet_lab_2.2\bin\Debug\dotNet_lab_2.2.exe.config
+C:\Users\Lenovo\source\repos\dotNet_lab_2.2\dotNet_lab_2.2\bin\Debug\dotNet_lab_2.2.exe
+C:\Users\Lenovo\source\repos\dotNet_lab_2.2\dotNet_lab_2.2\bin\Debug\dotNet_lab_2.2.pdb
+C:\Users\Lenovo\source\repos\dotNet_lab_2.2\dotNet_lab_2.2\obj\Debug\dotNet_lab_2.2.csproj.AssemblyReference.cache
+C:\Users\Lenovo\source\repos\dotNet_lab_2.2\dotNet_lab_2.2\obj\Debug\dotNet_lab_2._2.Form1.resources
+C:\Users\Lenovo\source\repos\dotNet_lab_2.2\dotNet_lab_2.2\obj\Debug\dotNet_lab_2._2.Properties.Resources.resources
+C:\Users\Lenovo\source\repos\dotNet_lab_2.2\dotNet_lab_2.2\obj\Debug\dotNet_lab_2.2.csproj.GenerateResource.cache
+C:\Users\Lenovo\source\repos\dotNet_lab_2.2\dotNet_lab_2.2\obj\Debug\dotNet_lab_2.2.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\dotNet_lab_2.2\dotNet_lab_2.2\obj\Debug\dotNet_lab_2.2.exe
+C:\Users\Lenovo\source\repos\dotNet_lab_2.2\dotNet_lab_2.2\obj\Debug\dotNet_lab_2.2.pdb

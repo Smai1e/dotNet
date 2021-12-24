@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище dotNetModelContainer" CdmEntityContainer="dotNetEntities">
+    <EntitySetMapping Name="Musical_Instrument">
+      <EntityTypeMapping TypeName="dotNetModel.Musical_Instrument">
+        <MappingFragment StoreEntitySet="Musical_Instrument">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="names" ColumnName="names" />
+          <ScalarProperty Name="typeId" ColumnName="typeId" />
+          <ScalarProperty Name="brand" ColumnName="brand" />
+          <ScalarProperty Name="photo" ColumnName="photo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Musical_Instrument_Type">
+      <EntityTypeMapping TypeName="dotNetModel.Musical_Instrument_Type">
+        <MappingFragment StoreEntitySet="Musical_Instrument_Type">
+          <ScalarProperty Name="typeId" ColumnName="typeId" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="description" ColumnName="description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

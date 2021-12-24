@@ -1,0 +1,11 @@
+C:\Users\Lenovo\Desktop\Lab8\WindowsFormsControlLibrary_\bin\Debug\WindowsFormsControlLibrary_.dll
+C:\Users\Lenovo\Desktop\Lab8\WindowsFormsControlLibrary_\bin\Debug\WindowsFormsControlLibrary_.pdb
+C:\Users\Lenovo\Desktop\Lab8\WindowsFormsControlLibrary_\bin\Debug\ClassLibraryHotel.dll
+C:\Users\Lenovo\Desktop\Lab8\WindowsFormsControlLibrary_\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Lenovo\Desktop\Lab8\WindowsFormsControlLibrary_\bin\Debug\ClassLibraryHotel.pdb
+C:\Users\Lenovo\Desktop\Lab8\WindowsFormsControlLibrary_\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Lenovo\Desktop\Lab8\WindowsFormsControlLibrary_\obj\Debug\WindowsFormsControlLibrary.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\Lab8\WindowsFormsControlLibrary_\obj\Debug\WindowsFormsControlLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\Lab8\WindowsFormsControlLibrary_\obj\Debug\WindowsFormsControlLibrary.csproj.CopyComplete
+C:\Users\Lenovo\Desktop\Lab8\WindowsFormsControlLibrary_\obj\Debug\WindowsFormsControlLibrary_.dll
+C:\Users\Lenovo\Desktop\Lab8\WindowsFormsControlLibrary_\obj\Debug\WindowsFormsControlLibrary_.pdb
