@@ -1,0 +1,16 @@
+C:\Users\Lenovo\source\repos\RGR\RGR\obj\Debug\RGR.csproj.AssemblyReference.cache
+C:\Users\Lenovo\source\repos\RGR\RGR\obj\Debug\RGR.Form1.resources
+C:\Users\Lenovo\source\repos\RGR\RGR\obj\Debug\RGR.Properties.Resources.resources
+C:\Users\Lenovo\source\repos\RGR\RGR\obj\Debug\RGR.csproj.GenerateResource.cache
+C:\Users\Lenovo\source\repos\RGR\RGR\obj\Debug\RGR.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\RGR\RGR\bin\Debug\RGR.exe.config
+C:\Users\Lenovo\source\repos\RGR\RGR\bin\Debug\RGR.exe
+C:\Users\Lenovo\source\repos\RGR\RGR\bin\Debug\RGR.pdb
+C:\Users\Lenovo\source\repos\RGR\RGR\bin\Debug\HtmlAgilityPack.dll
+C:\Users\Lenovo\source\repos\RGR\RGR\bin\Debug\Workers.dll
+C:\Users\Lenovo\source\repos\RGR\RGR\bin\Debug\Workers.pdb
+C:\Users\Lenovo\source\repos\RGR\RGR\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\Lenovo\source\repos\RGR\RGR\bin\Debug\HtmlAgilityPack.xml
+C:\Users\Lenovo\source\repos\RGR\RGR\obj\Debug\RGR.csproj.CopyComplete
+C:\Users\Lenovo\source\repos\RGR\RGR\obj\Debug\RGR.exe
+C:\Users\Lenovo\source\repos\RGR\RGR\obj\Debug\RGR.pdb
